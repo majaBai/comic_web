@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  /* display: flex; */
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.comic {
+  height: calc(100% - 20px);
+  box-sizing: border-box;
+  background-color: black;
+  overflow: auto;
+}
+.comic-content {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 10px 0;
+  height: 10%;
+}
+.last {
+  margin-right: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+  color: #1677ff;
+}
+.next {
+  cursor: pointer;
+  margin-right: 10%;
+  color: #1677ff;
+}
+.comic-img{
+  width: 80%;
+}
+.over-tip {
+  color: orange;
+}
+.tip {
+  color: gray;
+  text-align: center;
+  margin: 20px 0 0 20px;
+}
+.ant-menu-sub {
+  color: white !important;
+}
+
+/* .ant-menu-submenu-selected {
+  background-color: chocolate !important;
+} */
