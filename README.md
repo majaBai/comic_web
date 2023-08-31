@@ -13,5 +13,6 @@ npm run start
 nodejs + express
 
 npm i
+
 npm run start -- 你漫画所在的文件夹
 
